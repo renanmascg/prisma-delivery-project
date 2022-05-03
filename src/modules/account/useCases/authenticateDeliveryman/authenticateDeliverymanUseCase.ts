@@ -30,7 +30,7 @@ export class AuthenticateDeliverymanUseCase {
     }
 
     // gerar o token
-    const token = sign({ username }, "916b14d13276f1fb5eea8ff292fa28d8", {
+    const token = sign({ username }, "916b14d13276f1fb5ffa8ff292fa28d8", {
       subject: deliveryman.id,
       expiresIn: '1d'
     });
